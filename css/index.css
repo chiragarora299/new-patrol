@@ -1,0 +1,106 @@
+body{
+    min-height: 100vh;
+}
+.navbar-brand{
+    margin-left: 30px;
+    cursor: pointer;
+}
+.navbar-brand:hover{
+    cursor: pointer;
+}
+
+.navbar-toggler{
+    margin-right: 10px;
+}
+
+.navbar-nav{
+    margin-right: 200px;
+}
+.container-fluid{
+    font-size: 20px;
+}
+.d-flex{
+     margin-left: 10px;
+     border: none;    
+}
+
+.predict-form-btn{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 50px;
+    margin-top: 30px;
+    text-decoration: none;
+    border: none;
+    color: white;
+    background:linear-gradient(90deg, rgb(0,101,219) 50%, rgb(0,212,255,1) 100%); ;
+    text-decoration: none;
+    }
+    .predict-form-btn:hover{
+        color: antiquewhite;
+        cursor: pointer;
+        background:linear-gradient(180deg, rgb(0,101,219) 50%, rgb(0,212,255,1) 100%); ;
+        transition:  0.5s ease;
+    }
+.searchbox{
+  padding-left: 10px;
+    height: 40px;
+    border-radius: 50px;
+}
+.search-btn{
+    padding-top: 5px;
+    padding-left: 5px;
+    color: black;
+   
+}
+ul li a:hover{
+    
+    font-weight: 500;
+}
+.sticky-footer{
+    top: 100%;
+    position:sticky ;
+   color: wheat;
+}
+.box{
+    flex: auto;
+   flex-direction: row;
+}
+.footer-nav{
+    color: white;
+    text-decoration: none;
+    border-bottom: none;
+}
+
+.footer-nav:hover{
+    text-decoration: none;
+    color: beige;
+}
+.card{
+    margin-top: 100px;
+}
+.card-body{
+    margin-left: 200px;
+    border: none;
+}
+#intro{
+    width: 700px;
+    margin-top: 50px;
+    font-size: 17px;
+    border: none;
+}
+
+.card-body{
+    margin: 20px;
+     border: none;
+ }
+ .offers{
+     margin: 50px;
+     margin-bottom: 200px;
+ }
+ #predict-img{
+     
+    border-radius: 30px;
+ }
+ .predict{
+     margin-bottom: 200px;
+ }
